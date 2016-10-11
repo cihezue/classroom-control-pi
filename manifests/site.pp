@@ -26,8 +26,6 @@ node default {
   # Example:
   #   class { 'my_class': }
   
-  # example code for the classroom
-  include examples::puppetize
-  
+ 
   notify { "DOH": }
 }
