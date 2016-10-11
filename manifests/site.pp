@@ -31,4 +31,5 @@ node default {
   
  # notify { "This is the default message from the production environment": }
  notify {"Hello World! I am ${::fqdn}":}
+ 
 }
