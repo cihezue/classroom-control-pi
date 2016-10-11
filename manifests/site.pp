@@ -1,4 +1,4 @@
- ## site.pp ##
+## site.pp ##
 
 # This file (/etc/puppetlabs/puppet/manifests/site.pp) is the main entry point
 # used when an agent connects to a master and asks for an updated configuration.
@@ -27,7 +27,7 @@ node default {
   #   class { 'my_class': }
   
   # example code for the classroom
-  #include examples::puppetize
+  # include examples::puppetize
   
   notify { "hello": }
 }
