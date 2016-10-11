@@ -29,5 +29,5 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
- # notify { "Whats Up!": }
+ notify { "Whats Up!": }
 }
