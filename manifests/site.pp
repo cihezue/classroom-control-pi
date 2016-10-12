@@ -26,6 +26,6 @@ node default {
 }
 
 node 'ericmrice' {
-notify { "Linux is awesome!!!": }
+notify { "Linux is awesome!!!!": }
 }
 
