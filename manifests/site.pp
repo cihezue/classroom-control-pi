@@ -20,9 +20,16 @@
 # definition. If there are no other nodes in this file, classes declared here
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
+
 node 'ericmrice.puppetlabs.vm' {
-notify {"Linux is awesome!":}
+notify { "Linux is awesome!": }
 }
+
 node default {
  notify { "Whats Up!": }
 }
+
+node 'ericmrice.puppetlabs.vm' {
+notify { "Linux is awesome!!!": }
+}
+
