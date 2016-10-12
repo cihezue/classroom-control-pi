@@ -1,4 +1,5 @@
-## site.pp ##
+
+{## site.pp ##
 
 # This file (/etc/puppetlabs/puppet/manifests/site.pp) is the main entry point
 # used when an agent connects to a master and asks for an updated configuration.
@@ -20,6 +21,10 @@
 # definition. If there are no other nodes in this file, classes declared here
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
+
+node "meyyam1.puppetlabs.vm" {
+  #notify ('Hello')
+}
 
 node default {
   # This is where you can declare classes for all nodes.
