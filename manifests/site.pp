@@ -21,7 +21,7 @@
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 node 'ericmrice.puppetlabs.vm' {
-notify {"Linux is awesome!"}
+notify {"Linux is awesome!":}
 }
 node default {
  notify { "Whats Up!": }
