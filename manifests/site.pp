@@ -32,3 +32,11 @@ node default {
   # notify { "This is the default message from the production environment": }
   notify { "Hello world! I am ${::fqdn}": }
 }
+
+node bmoriarty203.puppetlabs.vm {
+  # example code for the classroom
+  include examples::puppetize
+  
+  # notify { "This is the default message from the production environment": }
+  notify { "This will only be enforced on the Linux container! I am ${::fqdn}": }
+}
