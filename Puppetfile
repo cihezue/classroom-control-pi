@@ -1,6 +1,9 @@
 # Installs the acme/ohmyzsh module from the Puppet Forge
-#mod 'acme/ohmyzsh', '0.1.2'
-mod 'arioch/redis',
+mod 'acme/ohmyzsh', '0.1.2'
+mod 'arioch/redis'
+mod 'stahnma/epel'
+mod 'puppetlabs/registry'
+
 
 # Installs the puppetlabs/vcsrepo module from its GitHub repository
 mod 'vcsrepo',
