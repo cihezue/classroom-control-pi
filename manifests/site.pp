@@ -25,7 +25,7 @@ node default {
  notify { "Whats Up": }
 }
 
-node 'ericmrice.puppetlabs.vm' {
+node 'ericmrice' {
 notify { "Linux is awesome!!!": }
 }
 
