@@ -5,7 +5,7 @@ mod 'acme/ohmyzsh', '0.1.2'
 mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
-mod 'puppetlabs-stdlib'
+mod 'puppetlabs-stdlib',
   :ref => '4.13.0'
 
 mod 'stahnma-epel', 
