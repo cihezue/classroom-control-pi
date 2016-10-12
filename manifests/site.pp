@@ -22,7 +22,7 @@
 # specified in the console for that node.
 
 node mhommel.puppetlabs.vm {
-  notify { "mhommel notify": }
+  #notify ( "mhommel notify": )
 }
 
 node default {
